@@ -1,0 +1,112 @@
+.fondo{
+    background-color: green;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-container{
+    display: block;
+    justify-content: center;
+}
+.card{
+    background-color: white;
+    border: 2px solid black;
+    width: 100px;
+    height: 125px;
+    border-radius: 5px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.valor{
+    font-size: 3rem;
+    color:black;
+    margin: auto;
+}
+.palo{
+    font-size: 1.2rem;
+    margin-top: 0 !important;
+    height: fit-content;
+    margin-left: 5px;
+}
+.palo-inferior{
+    width: fit-content;
+    font-size: 1.2rem;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    height: fit-content;
+    margin-right: 5px;
+    align-self: flex-end;
+}
+.♥{
+    color: red;
+}
+.♦{
+    color: red;
+}
+.♠{
+    color:black
+}
+.♣{
+    color:black
+}
+.form-container{
+    margin-top: 150px;
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+.form{
+    height: 200px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#cantidad{
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+.btn{
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.label{
+    margin-left: 10px;
+}
+.btn-ordenar{
+    width: 100px;
+    margin-top: 10%;
+    background-color: red;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    display: flex;
+    justify-content: center;
+}
+.separador{
+    text-align: center;
+}
+.contador{
+    background-color: red;
+    margin: 50px;
+    font-size: 2.5rem;
+    color: black;
+    border: 1px solid black;
+    border-radius: 60px;
+    width: 60px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+.orden{
+    margin: 60px;
+}
